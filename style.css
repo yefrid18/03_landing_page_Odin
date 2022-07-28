@@ -1,109 +1,139 @@
 body{
     background-color: #F9FAF8;
-    font-family: 'Times New Roman', Times, serif;    
+    font-family: 'Roboto', arial;  
+    margin: 0;
+    padding: 0;  
 }
 
-.header-container{
+.flex-container{
     display: flex;
-    flex-direction: column; 
-    justify-content: center;   
-    align-items: center;   
-    background-color: #1F2937 ;  
-    padding: 25px;  
+    flex-direction: column;     
 }
 
-.h2-header{    
-    font-size: 24px;
+.navbar-container {
+    display: flex;
     color: #F9FAF8;
-    align-self: flex-start;  
+    background-color: #1F2937;
+    padding: 20px 0px 20px 100px;
+    align-items: center;
 }
 
-a{
-    text-decoration: none; 
+.header-logo{
     font-size: 18px;
-    color: #E5E7EB;
-}
-
-nav{
-    align-self: flex-end;
-}
-
-.h1-header{
-    font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
 }
 
-.parrafo-header{
-    margin: 0;  
+.header-link {
+    display: flex;
+    margin-left: auto;
+    padding: 0px 100px 0px 0px;  
+}
+
+.header-link a {
+    text-decoration: none;
+    color: #E5E7EB;
     font-size: 18px;
-    color: #E5E7EB;  
+    padding: 10px;
+    font-family: 'Roboto', arial;
 }
 
-.parrafo-image{
-    align-self: flex-end;
-    color: white;
-    padding: 50px;
-    border-color: #2a67ca;   
-    background-color: rgb(150, 147, 147);
+.hero-container {
+    display: flex;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
 }
 
-.button-header{   
-    margin-top: 20px; 
-    background: #3882F6;
-    color: white;
-    width:80px;
-    height:26px;
-    border-radius: 6px;
+.hero-cta {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 50px;
+    flex-basis: 400px;
+}
+
+.hero-cta p {
+    font-family: 'Roboto', arial;
+    opacity: 0.7;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin: 0;
+    font-family: 'Roboto', arial;
+}
+
+.hero-container button {
+    display: block;
+    text-align: center;
+    width: 110px;
+    border: none;
+    background: #3882f6;
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: 'Roboto', arial;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero-image img {
+    width: 240px;
+    height: 200px;
 }
 
 .img-container{
     display:flex;        
     justify-content: center;
-    align-items: center;     
+    align-items: center;   
+    flex-wrap: wrap;  
     padding-top: 20px;
     padding-left: 40px;
     padding-right: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 60px;
 }
 
 .body-h1{
     text-align: center;
 }
 
-.img-parrafo{
-    align-self: flex-end;
+.img-paragraph{
+    text-align: center;
 }
 
 .imagenes{
     width: 125px;
-    height: 125px;       
+    height: 125px;  
+    border: 3px solid #3882F6;   
+    border-radius: 5px; 
+    margin: 5px 20px 0px 20px; 
 }
 
-.text-container{
-    background-color: #E5E7EB;
+.quote-container{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 30px;
-    padding-left: 70px;
-    padding-right: 70px;
-    padding-bottom: 30px;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 0 200px;
 }
 
-.text-parrafo{
-    font-size: 36px;
-    font-weight: light italic;
-    color: #1F2937;
-    padding-left: 20px;
-    padding-right: 20px;
+.quote-paragraph{
+    font-size: 30px;
+    font-style: italic;
+    font-weight: lighter;
+    font-family: 'Roboto', arial;
 }
 
-.text-author{
-    font-size: 18px;
-    font-weight: bolder;
-    color: #1F2937;
-    align-self: flex-end;
+
+.quote-author{
+    padding-bottom: 20px;
+    padding-right: 10px;
+    font-family: 'Roboto', arial;
+    text-align: right;
 }
 
 
@@ -111,18 +141,21 @@ nav{
     display: flex;    
     justify-content: space-around;
     align-items: center;    
-    background-color: #3882F6;  
-    padding: 50px;       
+    background-color: #3882F6;     
+    margin: 50px 200px;
+    padding: 10px 80px;    
+    border-radius: 5px;
+    border-color: none;     
 }
 
 
-.signup-parrafo{
+.signup-paragraph{
     font-size: 16px;
     font-weight: bolder;
     color: white;
 }
 
-.signup-parrafo2{
+.signup-paragraph2{    
     font-size: 14px;  
     color: white;  
 }
@@ -141,7 +174,8 @@ nav{
 footer{
     background-color: #1F2937;
     text-align: center;
-    font-size: 10px;
+    font-family: 'Roboto', arial;    
     color: #E5E7EB;
     padding: 20px;
+    font-size:1px;
 }

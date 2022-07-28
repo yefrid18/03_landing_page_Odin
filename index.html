@@ -8,62 +8,86 @@
     <title>Landing_Page_Odin_Yefryd</title>
 </head>
 
-<header>  
-    <div class="header-container">          
-        <h2 class="h2-header">Header Logo</h2>
-        <nav>
-            <a href="#">News</a>
-            <a href="#"> Programs  </a>
-            <a href="#"> Series  </a>
-        </nav>                 
-        <h1 class="h1-header">This Website is awesome</h1>
-        <p class="parrafo-header">This website has some subtext </p> 
-        <p class="parrafo-header">that goes header under the main title.</p>
-        <p class="parrafo-header">It's a smaller  font and the color is lower contrast.</p>  
-        <button class="button-header">Sign Up</button>
-        <p class="parrafo-image">this is a place for an image</p>       
-    </div>
-</header>
-
 <body>
+    <div class="flex-container">  
+
+        <nav class="navbar-container">
+            <div class="header-logo">
+                <h2>Header Logo</h2>
+            </div>
+            <div class="header-link">
+                <a href="#">About</a>
+                <a href="#">Shop</a>
+                <a href="#">Contact</a>                    
+            </div>
+        </nav> 
+        
+        <div class="hero-container">
+            <div class="hero-1 hero-cta">
+                <h1>This website is awesome</h1>
+                <p>This website has some subtext that goes here under the main title. 
+                It's a smaller font the color is lower contrast.
+                </p>
+                <button type="button">Sign Up</button>
+            </div>
+            <div class="hero-1 hero-image">
+                <img src="./img/frontend.jpg" alt="front-end">
+            </div>
+        </div>             
+    
+
         <h1 class="body-h1">Some random information</h1>
-        <div class="img-container">                             
-            <img class="imagenes" src="./img/js.png" alt="image1">            
-            <img class="imagenes" src="./img/angular.png" alt="image2">            
-            <img class="imagenes" src="./img/react.png" alt="image3">            
+        <div class="img-container">  
+        <div>                           
+            <img class="imagenes" src="./img/js.png" alt="image1">  
+            <p class="img-paragraph">This is First Image</p> 
+        </div>
+        <div>
+            <img class="imagenes" src="./img/angular.png" alt="image2"> 
+            <p class="img-paragraph">This is Second Image</p> 
+        </div>
+        <div>
+            <img class="imagenes" src="./img/react.png" alt="image3"> 
+            <p class="img-paragraph">This is Third Image</p>
+        </div>
+        <div>
             <img class="imagenes" src="./img/vue.png" alt="image4"> 
-            <p class="img-parrafo">This is First Image</p>  
-            <p class="img-parrafo">This is Second Image</p> 
-            <p class="img-parrafo">This is Third Image</p>    
-            <p class="img-parrafo">This is Fourth Image</p>   
+            <p class="img-paragraph">This is Fourth Image</p> 
+        </div>          
+                
+             
         </div>
 
-        <div class="text-container">
-            <p class="text-parrafo">
+        <div class="quote-container">
+            <p class="quote-paragraph">
                 This is an inspiring quote,ora testimonial from a customer.
                 Maybe it's just filling up space,or maybe people will
                 actually read it. Who knows? All i know is that it looks nice.
             </p>
-            <p class="text-author">
+            <p class="quote-author">
                 -Thor, God of Thunder
             </p>
         </div>
 
         <div class="signup-container">
-            <p class="signup-parrafo">
+            <div>
+            <p class="signup-paragraph">
                 Call to action! It's time!
             </p>
-            <p class="signup-parrafo2">
+            <p class="signup-paragraph2">
                 Sign up for our product by clicking that button right over there!
             </p>
+            </div>
+            <div>
             <button class="signup-button">Sign up</button>
+            </div>
         </div>
 
-
+    </div>
 </body>
 
 <footer>
-    <h1>Copyright @ The Odin Project 2021</h1>
+    <h1>Copyright @ Yefrid18 2022</h1>
 </footer>
 
 </html>
