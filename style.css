@@ -1,3 +1,147 @@
 body{
-    background-color: antiquewhite;
+    background-color: #F9FAF8;
+    font-family: 'Times New Roman', Times, serif;    
+}
+
+.header-container{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;   
+    align-items: center;   
+    background-color: #1F2937 ;  
+    padding: 25px;  
+}
+
+.h2-header{    
+    font-size: 24px;
+    color: #F9FAF8;
+    align-self: flex-start;  
+}
+
+a{
+    text-decoration: none; 
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+nav{
+    align-self: flex-end;
+}
+
+.h1-header{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.parrafo-header{
+    margin: 0;  
+    font-size: 18px;
+    color: #E5E7EB;  
+}
+
+.parrafo-image{
+    align-self: flex-end;
+    color: white;
+    padding: 50px;
+    border-color: #2a67ca;   
+    background-color: rgb(150, 147, 147);
+}
+
+.button-header{   
+    margin-top: 20px; 
+    background: #3882F6;
+    color: white;
+    width:80px;
+    height:26px;
+    border-radius: 6px;
+}
+
+.img-container{
+    display:flex;        
+    justify-content: center;
+    align-items: center;     
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+}
+
+.body-h1{
+    text-align: center;
+}
+
+.img-parrafo{
+    align-self: flex-end;
+}
+
+.imagenes{
+    width: 125px;
+    height: 125px;       
+}
+
+.text-container{
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 30px;
+}
+
+.text-parrafo{
+    font-size: 36px;
+    font-weight: light italic;
+    color: #1F2937;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.text-author{
+    font-size: 18px;
+    font-weight: bolder;
+    color: #1F2937;
+    align-self: flex-end;
+}
+
+
+.signup-container{
+    display: flex;    
+    justify-content: space-around;
+    align-items: center;    
+    background-color: #3882F6;  
+    padding: 50px;       
+}
+
+
+.signup-parrafo{
+    font-size: 16px;
+    font-weight: bolder;
+    color: white;
+}
+
+.signup-parrafo2{
+    font-size: 14px;  
+    color: white;  
+}
+
+
+.signup-button{      
+    background: #3882F6;
+    color: white;
+    border:1px solid white;
+    width:80px;
+    height:26px;
+    border-radius: 6px;
+}
+
+
+footer{
+    background-color: #1F2937;
+    text-align: center;
+    font-size: 10px;
+    color: #E5E7EB;
+    padding: 20px;
 }
